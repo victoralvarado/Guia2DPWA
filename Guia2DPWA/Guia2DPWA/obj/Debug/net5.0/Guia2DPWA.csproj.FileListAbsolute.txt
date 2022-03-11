@@ -342,7 +342,6 @@ E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Guia2DPWA.Raz
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Ejercicio1.cshtml.g.cs
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 E:\ING\CICLO V\DPWA\Guia2DPWA\Guia2DPWA\Guia2DPWA\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
