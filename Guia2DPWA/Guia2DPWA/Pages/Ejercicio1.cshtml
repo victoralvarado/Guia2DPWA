@@ -1,0 +1,78 @@
+﻿
+@page
+@model Guia2DPWA.Pages.Ejercicio1Model
+@{
+    ViewData["Title"] = "Ejercicio 1";
+}
+<div class="container mx-center">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center">Empleado</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad</label>
+                <input type="number" min="18" class="form-control" id="edad">
+            </div>
+            <div class="form-group">
+                <label for="salario">Salario</label>
+                <input type="number" step="any" min="0.0" class="form-control" id="salario">
+            </div>
+            <button type="button" class="btn btn-primary text-center" id="enviar">Enviar</button>
+        </div>
+    </div>
+    <div class="row justify-content-center my-5">
+        <div style="display:normal;" class="col-md-8">
+            <h2 class="text-center">Resultado</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                    <th scope="col">Nombre Completo y No. de Vocales</th>
+                    <th scope="col">Año de Nacimiento</th>
+                    <th scope="col">Salario final</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td id="nombreCompleto"></td>
+                <td id="anioNacimiento"></td>
+                <td id="SalarioFinal"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+         document.addEventListener("DOMContentLoaded", function () {
+            var button = document.getElementById('enviar');
+            button.addEventListener('click', function () {
+
+                var nombre = document.getElementById('nombre').value;
+                
+                const vocales = ["a", "e", "i", "o", "u"];
+                let cont = 0;
+
+                for (let letras of nombre.toLowerCase()) {
+                    if (vocales.includes(letras)) {
+                        cont++;
+                    }
+                }
+
+                document.getElementById('nombreCompleto').innerHTML = "'"+nombre+"' tiene '"+cont+"' vocales";
+                document.getElementById('nombre').value="";
+
+                var edad = document.getElementById('edad').value;
+                var y = new Date().getFullYear();
+                var anioNacimiento = y - edad;
+                document.getElementById('anioNacimiento').innerHTML = anioNacimiento;
+            
+             });
+        });
+    </script>
+}
