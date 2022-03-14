@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KlWB30nz1bmOa4JDFp3Vgcd/JYhAMDjt6AHEKO2gazg7Qi6bAEI8Ysi3ItNYvBd+eZYWG1fSKVBa4rn/IMjJ6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anonymous\\Documents\\ASP\\Razor\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anonymous\\.nuget\\packages\\bootstrap\\5.1.3\\bootstrap.5.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
